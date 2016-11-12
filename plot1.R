@@ -1,5 +1,6 @@
+# This function reads household_power_consumption.txt and creates a histogram for Global_active_power for 2 days
+# It assumes the file household_power_consumption.txt e present in the working directory
 
-# This function reads household_power_consumption.txt and plots  Global_active_power for 2 days
 plot1<-function(){
         print("Reading the file...")
         power_data<-read.csv2("household_power_consumption.txt",na.strings ="?")
